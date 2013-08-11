@@ -8,16 +8,12 @@ package clase1108.aula.objetos;
  *
  * @author PFR
  */
-public class Gallina extends Animal{
-    
-    String pico;
+public class Serpiente extends Animal{
+    private int largo;
 
     @Override
     public void hacerRuido() {
-        //super.hacerRuido(); //To change body of generated methods, choose Tools | Templates.
-        System.out.println("coc coc");
+        System.out.println("ZIP ZIP");
     }
     
-    
- 
 }

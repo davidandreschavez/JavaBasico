@@ -47,4 +47,10 @@ public class Animal {
         this.especie = especie;
     }
     
+
+void printNombrePatas(){
+    System.out.println(this.nobre + " " + this.numeroPatas);
+}
+
+    
 }

@@ -10,6 +10,8 @@ package clase1108.aula.objetos;
  */
 public class Tigre extends Animal{
 
+    String nombrek;
+    
     @Override
     public void hacerRuido() {
         System.out.println("rugir");
@@ -28,5 +30,6 @@ public class Tigre extends Animal{
     void hacerRuido (String mensaje){
           System.out.println(" rugir" + mensaje);
     }
+    
     
 }
