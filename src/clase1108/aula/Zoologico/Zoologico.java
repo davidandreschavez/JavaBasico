@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package clase1108.aula.objetos;
+ package clase1108.aula.Zoologico;
 
 /**
  *
@@ -38,21 +38,9 @@ public class Zoologico {
         
     
     
-    public static void doCasting(Animal animal){
-        //
-        if(animal instanceof Tigre)
-            Tigre tigre = (Tigre) animal;
-            tigre.hacerRuido(true);
-            
-        }else if(animal instanceof Gallina){
-            Gallina gallina =(Gallina) animal;
-            gallina.hacerRuido();
-            gallina.picar();
-            
-            //animal.hacerRuido();
-        }
-        
-    }
+  
+
+    
     
     
     public static void docosntructor(){

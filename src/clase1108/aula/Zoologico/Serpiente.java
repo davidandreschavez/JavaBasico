@@ -4,6 +4,8 @@
  */
 package clase1108.aula.objetos;
 
+import clase1108.aula.Zoologico.Animal;
+
 /**
  *
  * @author PFR

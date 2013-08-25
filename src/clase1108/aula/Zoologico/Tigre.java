@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package clase1108.aula.objetos;
+package clase1108.aula.Zoologico;
 
 /**
  *
@@ -11,7 +11,17 @@ package clase1108.aula.objetos;
 public class Tigre extends Animal{
 
     String nombrek;
+
+    public Tigre() {
+    }
     
+    public Tigre(String nombre) {
+            this.setNobre(nombre);
+    }
+
+
+
+     
     @Override
     public void hacerRuido() {
         System.out.println("rugir");

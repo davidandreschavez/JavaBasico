@@ -1,5 +1,5 @@
 
-package clase1108.aula.objetos;
+package clase1108.aula.Zoologico;
 
 
 public class Animal {
@@ -7,7 +7,7 @@ public class Animal {
     private int numeroPatas;
     private Double tamaño;
     private String especie;
-    private String nobre;
+    private String nombre;
     // Metodos o Acciones
     public void hacerRuido(){
         System.out.println("ZZZZZZZZZZZ");
@@ -23,11 +23,11 @@ public class Animal {
     }
 
     public String getNobre() {
-        return nobre;
+        return nombre;
     }
 
     public void setNobre(String nobre) {
-        this.nobre = nobre;
+        this.nombre = nobre;
     }
     
     // get ansd set
@@ -49,7 +49,7 @@ public class Animal {
     
 
 void printNombrePatas(){
-    System.out.println(this.nobre + " " + this.numeroPatas);
+    System.out.println(this.nombre + " " + this.numeroPatas);
 }
 
     
